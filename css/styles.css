@@ -1,0 +1,86 @@
+/*HEADER*/
+header {
+    background-color: black;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin:20px;
+}
+.head-1{
+    background-color: rgb(68, 68, 190);
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    margin-bottom: 10px;
+    
+}
+.logo, nav, .redes-sociales {
+    height: 20px;
+    margin: 0 10px;
+    background-color: pink;
+}
+.logo{
+    flex-grow: 1;
+}
+nav{
+    flex-grow: 2;
+}
+.redes-sociales{
+    flex-grow: 1;
+}
+.head-2{
+    background-color: coral;
+    padding: 20px;
+}
+section{
+    height: 20px;
+    margin: 0 10px;
+    background-color:rgb(228, 250, 107);
+}
+/*MAIN*/
+main{
+    background-color: black;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+}
+article{
+    background-color: darkcyan;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;  
+}
+main p{
+    background-color: cadetblue;
+    height: 20px;
+    width: 450px;
+    margin: 20px;
+}
+.article-footer{
+    background-color: rgb(95, 187, 190);
+    height: 20px;
+    margin: 20px;
+    width: 950px;
+    
+}
+aside{
+    background-color: rgb(255, 80, 162);
+    margin-left: 10px;
+}
+footer{
+    background-color: black;
+    margin:20px;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+footer p{
+    background-color: crimson;
+    height: 20px;
+    margin: 20px;
+    width: 1800px;
+}
