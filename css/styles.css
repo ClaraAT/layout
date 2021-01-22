@@ -47,12 +47,13 @@ main{
 }
 article{
     background-color: darkcyan;
-    
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;  
+    justify-content: center;
 }
+
 main p{
+    display: flex;
     background-color: cadetblue;
     height: 20px;
     width: 450px;
@@ -62,12 +63,15 @@ main p{
     background-color: rgb(95, 187, 190);
     height: 20px;
     margin: 20px;
-    width: 950px;
-    
+    width: 950px; 
 }
 aside{
     background-color: rgb(255, 80, 162);
     margin-left: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding-bottom: 60px;
 }
 footer{
     background-color: black;
@@ -83,4 +87,18 @@ footer p{
     height: 20px;
     margin: 20px;
     width: 1800px;
+}
+
+/*VERSIÓN TABLET y MÓVIL*/
+@media screen and (max-width: 1580px){
+    main{
+        display: block;
+        background-color: yellow;
+    }
+    aside{
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+    }
+
 }
