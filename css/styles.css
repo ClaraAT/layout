@@ -72,41 +72,73 @@ header a:hover{
     font-size: 2.6em;
 }
 
-}
 /*MAIN*/
 main{
-    background-color: black;
+    background-color: rgba(179, 179, 179, 0.61);
     margin:20px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
+    justify-content: center
 }
-article{
-    background-color: darkcyan;
+.articles{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-main p{
-    display: flex;
-    background-color: cadetblue;
-    height: 20px;
-    width: 450px;
-    margin: 20px;
+article{
+    background-color: rgb(243, 243, 243);
+    width:500px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+    margin: 10px;
+    padding:10px;
 }
-.article-footer{
-    background-color: rgb(95, 187, 190);
-    height: 20px;
-    margin: 20px;
-    width: 950px; 
+img{
+    width: 500px;
+    display: block;
+    margin: auto;
+    
+}
+.fecha{
+    margin-top: -12px;
+    color: tomato;
+}
+h2{
+    background-color: rgb(252, 95, 95);
+    color: white;
+    height: 17px;
+    padding-top: 20px;
+    margin-top: -20px;
+}
+article a{
+    color: gray;
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    font-size: 1.2em;
+    background-color:  rgb(252, 95, 95);
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
 }
 aside{
     background-color: rgb(255, 80, 162);
-    margin-left: 10px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
     padding-bottom: 60px;
+    margin-top: 10px;
+    width: 70%;
+}
+aside p {
+    display: block;
+    margin: 20px auto;
+    background-color: gray;
+    height: 20px;
+    width: 80%;
 }
 footer{
     background-color: black;
@@ -131,9 +163,8 @@ footer p{
         background-color: yellow;
     }
     aside{
-        margin-left: 0px;
-        margin-top: 10px;
-        padding-bottom: 0px;
+        margin: 10px auto;
+        padding-top: 10px;
     }
 
 }
